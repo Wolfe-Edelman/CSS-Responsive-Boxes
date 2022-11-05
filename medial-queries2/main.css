@@ -1,3 +1,108 @@
 body {
   background: papayawhip;
 }
+.container{
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center
+}
+
+.a{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 2em;
+    flex-grow: 1;
+  }
+  .b{ 
+    width: 100%;
+    height: 40vh;
+    border: 1px solid black;
+    flex-grow: 3;
+    margin: 2em
+  }
+  .c{
+    width: 33%;
+    height: 20vh;
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 2em
+  }
+  .d{
+    width: 33%;
+    height: 20vh;
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 2em
+  }
+  .e{
+    width: 33%;
+    height: 20vh;
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 2em
+  }
+  .cde{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+  .f{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 2em;
+    flex-grow: 1;
+  }
+  @media (max-width: 600px){
+    .a{
+      width: 100%;
+      height: 40vh;
+      border: 1px solid black;
+      margin: 2em
+    }
+    .b{
+      width: 80%;
+      height: 30vh;
+      border: 1px solid black;
+      margin: 2em;
+    }
+    .c{
+      width: 26.67%;
+      height: 30vh;
+      border: 1px solid black;
+      margin: 2px
+    }
+    .d{
+      width: 26.67%;
+      height: 30vh;
+      border: 1px solid black;
+      margin: 2px
+    }
+    .e{
+      width: 26.67%;
+      height: 30vh;
+      border: 1px solid black;
+      margin: 2px
+    }
+    .cde{
+      display: flex;
+      flex-direction: row;
+    }
+    .b, .cde{
+      display: flex;
+      flex-direction: column;
+    }
+    .f{
+      width: 20%;
+      height: 60vh;
+      border: 1px solid black;
+      margin: 2em;
+    }
+    .bcde, .f{
+      display: flex;
+      flex-direction: row
+    }
+  }
